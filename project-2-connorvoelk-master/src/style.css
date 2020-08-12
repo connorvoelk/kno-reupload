@@ -1,0 +1,470 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", "Helvetica", sans-serif;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  height:inherit;
+}
+
+.flex-container{
+  display:flex;
+  flex-direction: row;
+  height:100%;
+}
+
+.top-bar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #e57373;
+  align-items: center;
+  position:fixed;
+  top:0;
+  width:100%;
+  padding:8px;
+  z-index:3;
+}
+
+
+.logo{
+  margin:.3em;
+  width:130px;
+}
+
+.right-side{
+  display: flex;
+  align-items: center;
+}
+
+.user-name{
+  font-size:  1em;
+  display: none;
+}
+
+.profile-pic{
+  width:50px;
+  margin: .7em;
+}
+
+main{
+  margin-top:75px;
+}
+
+
+.ham-menu{
+  width:50px;
+}
+
+
+.ham-menu:hover{
+  cursor:pointer;
+}
+
+.side-menu{
+  display: none;
+}
+
+.addForm{
+  margin-top: 80px;
+}
+
+.actualContent{
+  margin-top: 80px;
+}
+
+
+.cta{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+  background-color: #311b92;
+  border-radius: 100px;
+  border: none;
+  font-size: 1.3em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  box-shadow: 2px 2px 2px #9b9b9b;
+  transition: box-shadow 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.save{
+margin: 0 auto;
+}
+
+.cta img{
+  width:1.3em;
+}
+
+.cta:focus, .cta:hover{
+  box-shadow: 3px 3px 3px #747474;
+  background-color: #6746c3;
+}
+
+.filter{
+  margin-left:.5em;
+}
+
+.filter h1{
+  margin-bottom:2px;
+}
+
+.filter ul{
+  margin-top:0;
+  margin-left:0;
+  list-style-type: circle;
+}
+
+hr{
+  width:80%;
+  border-top: 1px solid black;
+  border-radius: 100px;
+  margin:0 auto;
+}
+
+
+section.card_ui {
+  background-color: #eee;
+}
+
+div.card_group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction:column;
+}
+
+
+div.card {
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction:column;
+  background-color: white;
+  margin: 0.8rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16),
+              0 1px 3px rgba(0, 0, 0, 0.23);
+}
+
+a,p,.modal-info h2{
+  margin-left: .3em;
+  margin-bottom: 0em;
+  margin-top:0;
+}
+
+
+.top-bar a{
+  text-decoration: none;
+  color:black;
+}
+
+.card a{
+  padding: 0;
+  margin:0;
+}
+
+.card .button .cta {
+  font-size: 0.8em;
+  height: 8vw;
+  width: 50vw;
+}
+
+button#timer {
+  background-color: #000063;
+  opacity: 80%;
+  box-shadow: 0px 0px 0px #9b9b9b;
+  outline: none;
+}
+
+
+.modal-info img{
+  width:100%;
+}
+
+div.card img {
+  width: 100%;
+  height: 50vw;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+.formInput h2{
+  font-size: 1.6em;
+}
+
+.modal-info h2{
+  margin-top: .5em;
+}
+
+div.card h2 {
+  font-size:  1.5em;
+  padding: .5rem 1rem;
+  margin-bottom: 0;
+}
+
+div.card p {
+  font-size:  0.8em;
+  padding: .5rem 1rem;
+  margin-top:0;
+}
+
+.page-heading h1{
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+
+.modall{
+  position: fixed;
+  z-index: 3000;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.modall-content {
+  background-color: #ffffff;
+  margin: 10% auto;
+  width: 90%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  padding: 0px;
+  border-radius: 10px;
+}
+
+
+.modal-head {
+  background: #e57373;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-right: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* This is where the problems start*/
+
+
+.modal-info{
+  display: flex;
+  flex-direction: column;
+}
+
+a.cta{
+text-decoration: none;
+}
+a.cta:hover{
+  text-decoration: none;
+  color:white;
+}
+
+
+.modal-info a{
+  text-decoration: none;
+  color:#311b92;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.buttons button{
+  width:50px;
+}
+.form-title{
+  margin-left:3rem;
+}
+
+.menu{
+  margin-top:55px;
+  position: fixed;
+  z-index: 10;
+  width:100%;
+}
+
+.menu ul{
+  background-color: #9b9b9b;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.menu li{
+  list-style:none;
+  background-color: #311b92;
+  margin-top: 10px;
+  color:white;
+  margin-left: 0;
+  padding-left: 0;
+  font-size:1.3em;
+  cursor: pointer;
+}
+
+
+.menu li p{
+  text-align:center;
+}
+
+
+.form-head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-head .closeButton{
+  width:50px;
+  margin-top: 10px;
+}
+
+
+.form-head .closeButton:hover{
+  width:50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  margin:3rem;
+}
+
+
+input{
+    background:#e4e4e4;
+    border-color: #e57373;
+    border-radius: 10px;
+    height:1.5rem;
+    width: 100px;
+    font-size: 1em;
+}
+
+
+
+#descInput{
+  height:60px;
+}
+/* This is where the problems end*/
+
+@media (min-width: 598px) {
+  .modall-content {
+    margin: 20% auto;
+    width: 80%;
+  }
+  div.card_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     flex-direction: row;
+  }
+
+  div.card {
+    flex: 1 0 28%;
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16),
+                0 1px 3px rgba(0, 0, 0, 0.23);
+  }
+
+
+  .modal-head img{
+      margin-right: 20px;
+      width: 60px;
+    }
+
+  div.card img {
+    width: 100%;
+    height: 18vw;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  div.card p {
+    font-size:  1em;
+    padding: .5rem 1rem;
+  }
+
+  .user-name{
+      display: block;
+  }
+  .side-menu{
+    width:240px;
+    display: flex;
+    flex-direction: column;
+  }
+  .ham-menu{
+    display: none;
+  }
+  .menu{
+    display: none;
+  }
+  .card .button .cta{
+    font-size: 1.2em;
+    height: 5vw;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input{
+    width:100%;
+  }
+
+  .form-head{
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 960px) {
+  .card .button .cta{
+    font-size: 0.8em;
+    height: 3vw;
+    width: 12vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .modall-content {
+    margin: 30% auto;
+    width: 70%;
+  }
+}
+
+@media (min-width: 1366px) {
+  .card .button .cta{
+    font-size: 1em;
+    height: 2vw;
+    width: 8vw;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.invisible{
+  display: none;
+}

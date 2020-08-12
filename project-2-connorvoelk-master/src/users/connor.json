@@ -1,0 +1,44 @@
+{
+    "userName": "connorvoelk",
+    "cardList": [
+        {
+            "title": "ADAPT AUTO MAX",
+            "image": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/6edda20b-2a11-4ae4-91ff-fe75b1df46c6/adapt-auto-max-pure-platinum-release-date.jpg",
+            "desc": "The silhouette’s innovative approach extends into its performance features. For the first time ever, users will have two modes to engage—one tuned for activity, and the other for relaxing. Lightweight, breathable mesh upper contours your foot for a personalized feel, while a TPU plate wraps your foot for added stability. Underfoot, a brand-new Max Air unit provides more Air for an ultrasoft ride. Step into this truly unprecedented design and extend the imaginative legacy of Air Max.",
+            "price": "400.00",
+            "link": "https://www.nike.com/launch/t/adapt-auto-max-pure-platinum",
+            "date": "2020-05-20",
+            "time": "07:00",
+            "popUp": "modall invisible"
+        },
+        {
+            "title": "YEEZY 500 HIGH",
+            "image": "https://assets.adidas.com/images/w_840,h_840,q_auto:sensitive/f00da78791bb46cda685abb200fd5d69_9366/01_standard_1.jpg",
+            "desc": "This thing looks really weird, but it may resell well",
+            "price": "220.00",
+            "link": "https://www.adidas.com/us/yeezy",
+            "date": "2020-05-16",
+            "time": "06:00",
+            "popUp": "modall invisible"
+        },
+        {
+            "title": "AIR JORDAN IV '95 NEON",
+            "image": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/82958fe7-4562-4a4c-a32f-a66053b6814c/air-jordan-4-95-neon-release-date.jpg",
+            "desc": "This Air Jordan 4 arrives infused with a color scheme made famous by the Air Max 95. A gradient range of grays grace the shoe’s upper, giving way to a matte black finish on the outsole. Neon hits of volt on the tongue, eyelets, insole and sole combine with suede overlays and spotted laces to extend the theme. Reflective Nike Air branding on the heel emphasizes the style’s OG inspiration.",
+            "price": "225.00",
+            "link": "https://www.nike.com/launch/t/air-jordan-4-retro-95-neon",
+            "date": "2020-03-14",
+            "time": "07:00",
+            "popUp": "modall invisible"
+        }
+    ],
+    "input": {
+        "title": "",
+        "image": "",
+        "desc": "",
+        "price": "",
+        "link": "",
+        "date": "",
+        "time": ""
+    }
+}
